@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#151719">
+  <meta name="description" content="GARAGE: una primera versión para organizar tus vehículos y sus mantenimientos.">
+  <title>Inicio | GARAGE</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="assets/icon-192.png" type="image/png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="inicio">
+  <header class="app-header">
+    <div class="container app-header__container">
+      <a class="app-brand" href="index.html">
+        <span class="app-brand__logo">G</span>
+        <span class="app-brand__name">GARAGE</span>
+      </a>
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a class="main-nav__link main-nav__link--active" href="index.html">Inicio</a>
+        <a class="main-nav__link" href="vehiculos.html">Mi garaje</a>
+        <a class="main-nav__link" href="mantenimiento.html">Mantenimiento</a>
+        <a class="main-nav__link" href="economia.html">Gastos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container app-main">
+    <section class="welcome-section">
+      <p class="welcome-section__eyebrow">RACING / PERFORMANCE</p>
+      <h1 class="welcome-section__title">Tu garage, en un solo lugar.</h1>
+      <p class="welcome-section__text">Una forma simple de tener a mano los datos de tus vehículos, sus mantenimientos y gastos.</p>
+      <a class="btn btn-garage" href="vehiculo-nuevo.html">Agregar vehículo</a>
+    </section>
+
+    <section class="summary-section" aria-labelledby="summary-title">
+      <h2 class="section-title" id="summary-title">Mi resumen</h2>
+      <div class="row g-3">
+        <div class="col-12 col-sm-6 col-lg-4">
+          <article class="summary-card">
+            <p class="summary-card__label">Vehículos</p>
+            <p class="summary-card__number" id="total-vehiculos">0</p>
+            <a href="vehiculos.html">Ver mi garaje</a>
+          </article>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <article class="summary-card">
+            <p class="summary-card__label">Mantenimientos</p>
+            <p class="summary-card__number" id="total-mantenimientos">0</p>
+            <a href="mantenimiento.html">Ver registros</a>
+          </article>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <article class="summary-card">
+            <p class="summary-card__label">Gastos registrados</p>
+            <p class="summary-card__number" id="total-gastos">0</p>
+            <a href="economia.html">Ver gastos</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-section" aria-labelledby="quick-title">
+      <h2 class="section-title" id="quick-title">Accesos rápidos</h2>
+      <div class="row g-3">
+        <div class="col-12 col-md-6">
+          <a class="quick-link" href="mantenimiento-nuevo.html">
+            <span class="quick-link__symbol">＋</span>
+            <span><strong>Registrar mantenimiento</strong><small>Anotá un service o reparación.</small></span>
+          </a>
+        </div>
+        <div class="col-12 col-md-6">
+          <a class="quick-link" href="gasto-nuevo.html">
+            <span class="quick-link__symbol">＄</span>
+            <span><strong>Registrar gasto</strong><small>Llevá un control básico de los gastos.</small></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <p class="storage-note">Los datos se guardan solamente en este navegador.</p>
+  </main>
+
+  <footer class="app-footer">
+    <div class="container"><p>GARAGE · Versión 0.1</p></div>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>
