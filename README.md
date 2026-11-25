@@ -18,17 +18,17 @@ El proyecto se desarrolla por versiones, incorporando mejoras de diseño, navega
 
 ## Versiones
 
-El repositorio conserva distintas etapas del desarrollo:
+El repositorio conserva distintas etapas del desarrollo. Cada versión puede probarse directamente desde el navegador mediante GitHub Pages.
 
-| Versión | Descripción |
-|---|---|
-| garage-v0.1 | Primera versión funcional del proyecto. |
-| garage-v1 | Actualización de estructura, diseño y funcionalidades. |
-| garage-v2 | Incorporación de nuevas herramientas y mejoras. |
-| garage-v3 | Ampliación de funcionalidades y experiencia de usuario. |
-| garage-v4 | Versión con nuevas pantallas y características. |
+| Versión | Descripción | Probar |
+|---|---|---|
+| garage-v0.1 | Primera versión funcional del proyecto. | [Abrir](https://xpediaaauxui.github.io/garage-pwa/garage-v0.1/) |
+| garage-v1 | Actualización de estructura, diseño y funcionalidades. | [Abrir](https://xpediaaauxui.github.io/garage-pwa/garage-v1/) |
+| garage-v2 | Incorporación de nuevas herramientas y mejoras. | [Abrir](https://xpediaaauxui.github.io/garage-pwa/garage-v2/) |
+| garage-v3 | Ampliación de funcionalidades y experiencia de usuario. | [Abrir](https://xpediaaauxui.github.io/garage-pwa/garage-v3/) |
+| garage-v4 | Versión con nuevas pantallas y características. | [Abrir](https://xpediaaauxui.github.io/garage-pwa/garage-v4/) |
 
-Cada carpeta contiene una versión independiente para poder consultar y probar su evolución.
+No es necesario descargar ni instalar el proyecto para probarlo. Cada enlace permite acceder a su respectiva versión desde el navegador.
 
 ## Tecnologías utilizadas
 
@@ -40,7 +40,7 @@ Cada carpeta contiene una versión independiente para poder consultar y probar s
 - Service Worker
 - LocalStorage
 
-## Cómo ejecutar el proyecto
+## Cómo ejecutar el proyecto localmente
 
 1. Clonar o descargar este repositorio.
 2. Abrir la carpeta de la versión que se quiera probar.
